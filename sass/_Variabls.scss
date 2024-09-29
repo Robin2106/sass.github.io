@@ -1,0 +1,17 @@
+$black: #000000;
+$font-sizq: 20px;
+$header-bg-color: #febcee;
+$border-radies: 8px;
+$txt-color: #ffffff;
+$bg-color: aqua;
+$cat-bgcolor: #889aff;
+$disply-flex: flex;
+
+body {
+    background-color: $bg-color;
+}
+
+.images {
+    display: $disply-flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,27 @@
+@mixin text-color() {
+    color: white;
+}
+
+@mixin blue-color() {
+    background-color: #889aff;
+    border: 2px solid white;
+    height: 500px;
+    width: 400px;
+    margin: 20px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@mixin align($val){
+    text-align: $val;
+}
+.imgs1 {
+    @include blue-color();
+}
+
+.welcome{
+    @include align(center)
+}

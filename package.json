@@ -1,0 +1,25 @@
+{
+  "name": "sass-basics",
+  "version": "1.0.0",
+  "description": "Node & Npm Basics",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass --watch ./sass/main.scss:css/style.css"
+  },
+  "keywords": [
+    "Node",
+    "Npm",
+    "Js",
+    "Sass"
+  ],
+  "author": "Robin A",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  },
+  "devDependencies": {
+    "node-sass": "^9.0.0",
+    "sass": "^1.79.3"
+  }
+}

@@ -1,0 +1,7 @@
+@function fnt-size(){
+    @return 20px;
+}
+
+.welcome{
+    font-size: fnt-size();
+}
